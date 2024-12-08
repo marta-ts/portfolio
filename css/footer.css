@@ -1,0 +1,26 @@
+footer {
+    background-color: var(--bg-color-2);
+}
+
+footer.container {
+    min-height: auto;
+}
+
+footer.container .inside {
+    padding: var(--mob-padding);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+    
+}
+
+.social-icons a {
+    text-decoration: none;
+            color: #555;
+            font-size: 1.5rem;
+            transition: color 0.3s;
+}
